@@ -1,0 +1,284 @@
+*, *:before, *:after {
+	
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+  }
+  
+  body {
+
+
+	height: 100vh;
+	width: 100vw;
+	font-family:'Poppins', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	overflow: auto;
+	
+  }
+ 
+
+  main 	{
+	  display: grid; 
+	  grid-template-rows: 1fr 1fr;
+	  height:100vh;
+	  width: 100vw;
+
+  }
+
+
+
+nav {
+	position: fixed;
+	border: none;
+	width: 100%;
+	z-index: 9000;
+	font-family:'Poppins', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0px auto 0px;
+	padding: 100px auto 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	background-color: #fff;
+	top: 0;
+  }
+  
+  
+a {
+	
+	text-decoration: none;
+	color: #141414;
+  
+  }
+  
+  a:hover {
+	
+	text-decoration: none;
+	color: #A7A7A7;
+	
+  }
+  
+  ul, li {
+	display: inline-block;
+	margin-left: 2%;
+	margin-right: 25%;
+	float:right;
+
+  }
+  
+  
+  
+  li {
+   
+	margin: 90px 0px 0px 20px;
+	padding-right: 20px; 
+	z-index: 9500;
+	padding: 0px 0px 20px 0px;
+	
+  }
+  
+  li:hover {
+
+	color: #A7A7A7;
+	display: inline-block;
+	margin-left: 20px;
+	z-index: 9500;
+	
+  }
+
+  img {
+
+   
+    margin: 5px 380px 5px 10px;
+    float: left;
+    cursor: pointer;
+    
+}
+
+
+ 
+  .section {
+
+	font-family:'Poppins', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	text-align: left;
+	color:#A7A7A7;
+	display:grid; 
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr;
+	grid-row-gap:none;
+  	margin: 180px auto 20px 19.5%;
+	width:60%;
+	height: 400px;
+	padding:1em;
+	
+}
+
+.section p{
+
+	margin:0;
+	font-size:0.9rem;
+}
+
+
+h1 { 
+	
+	font-family: 'Poppins', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	color: #000;
+	font-size: 1.6em;
+	font-weight: 1rem;
+	margin-top:120px;
+	padding:0px;
+
+
+}
+
+.section2 {
+
+display:grid; 
+grid-template-columns: 1fr 2fr;
+grid-template-rows: 1fr 200px;
+margin:150px 0px 0px 0px;
+padding:2em;
+font-family:'Poppins', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+background: #A7A7A7;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #A7A7A7,#eef2f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #A7A7A7, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.section2 > h1 {
+	margin-top:35px;
+	margin-left:35px;
+	font-size:2em;
+	font-weight:0.3rem;
+
+}
+
+#promise{
+	display: grid;
+	margin-top:80px;
+	grid-template-rows: 1fr 100px;
+	grid-row-gap: none;
+}
+
+
+#promise img {
+	
+	margin: 0 0 0 50%;
+	float:left;
+	
+  }
+
+  #promise img:hover {
+	
+	margin: 0 0 0 50%;
+	color:gray;
+	opacity: 0.3;
+	
+  }
+
+  .section2  img{ 
+	float: left;
+	height: 350px;
+	width: 290px;
+	
+}
+
+
+
+
+  figcaption {
+	  margin:0 0 0 50%;
+	  width: 290px;
+	  padding:20px;
+
+	  background: #fff;
+	  text-align: center;
+  }
+
+
+
+	
+
+	footer { 
+
+		background-color: #141414;
+		display: flex;
+		
+		text-align: center;
+		width: 100%;
+		height: 10%;
+		margin: 0;
+		padding: 30px;
+		
+	  
+	  }
+	
+	  
+	  .fa {
+		float:right;
+		padding: 6px;
+		border-radius: 50%;
+		font-size: 30px;
+		background:#565656;
+		color: #565656;
+		width: 30px;
+		height: 30px;
+		text-align: center;
+		text-decoration: none;
+		margin: 5px;
+	  }
+	  
+	  
+	  #in{
+		margin-right: 0%;
+	  }
+	  
+	  #twitter {
+		margin-right: 0%;
+	  
+	  }
+	  #face {
+		margin-left: 40%;
+	  }
+	  
+	  
+	  .fa:hover {
+		  opacity: 0.7;
+	  }
+	  
+	  .fa-facebook {
+		float:right;
+		background: #565656;
+		color: #141414;
+	  }
+	  
+	  .fa-twitter {
+		float:right;
+		background: #565656;
+		color: #141414;
+	  }
+	  
+	  .fa-linkedin {
+		float:right;
+		background: #565656;
+		color: #141414;
+	  }
+	
+	  #copyright {
+		float: left;
+		position: relative;
+		top: 20px;
+		font-family:'Poppins', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+		color:#808080;
+		font-size: 12px; 
+		font-weight: 400px;
+		margin-left: 20%;
+		cursor: pointer;
+		
+	  }
+	  
+	  #copyright:hover {
+		font-family:'Poppins', Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+	  color:#ACACAC;
+	  font-size: 12px; 
+	  }
